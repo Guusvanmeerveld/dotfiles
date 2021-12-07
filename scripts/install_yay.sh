@@ -1,7 +1,7 @@
 # Download
 git -C /tmp/yay pull || git clone https://aur.archlinux.org/yay /tmp/yay/
 
-cd yay
+cd /tmp/yay
 
 # Install
 makepkg -sci --noconfirm

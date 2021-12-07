@@ -2,13 +2,14 @@
     link:
       create: true
       relink: true
+      force: true
 
 - clean: ["~"]
 
 - link:
     # WM
     ~/.config/bspwm/bspwmrc: config/bspwmrc
-    ~/.config/sxhkd/sxhkdrc: config/sxhkdrc 
+    ~/.config/sxhkd/sxhkdrc: config/sxhkdrc
     ~/.config/polybar: config/polybar
     ~/.config/picom/picom.conf: config/picom.conf
 
