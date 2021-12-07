@@ -1,0 +1,13 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- link:
+    # sddm
+    /etc/sddm.conf.d/default.conf: config/sddm.conf
+
+    # System
+    /etc/pacman.conf: config/pacman.conf
+
+    /usr/share/icons/default/index.theme: config/cursors.theme

@@ -1,0 +1,6 @@
+configuration {
+    combi-modi: "drun,window,ssh";
+    font: "Fira Code 14";
+    icon-theme: "Papirus";
+}
+@theme "./material.rasi"

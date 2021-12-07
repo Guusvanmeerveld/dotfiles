@@ -1,0 +1,13 @@
+Privacy Pass|ajhmfdgkijocedmfjonnpjfojldioehi
+DuckDuckGo Privacy Essentials|bkdgflcldnnnapblkhphbgpggdiikppg
+Magister Auto-Login|cekhhgcjpkahghpgeafhmkkjhidodplk
+uBlock Origin|cjpalhdlnbpafiamejdnhcphjbkeiagm
+Dark Reader|eimadpbcbfnmbkopoojfekhnkhdbieeh
+I don't care about cookies|fihnjjcciajhdojfnbdddfaoknhalnja
+NordVPN — #1 VPN Chrome Extension: Get a VPN|fjoaledfpmneenckfbpdfhkmimnjocfa
+JSON Viewer|gbmdgpbipfallnflgajpaliibnhdgobh
+Return YouTube Dislike|gebbhagfogifgggkldgodflihgfeippi
+GNOME Shell integration|gphhapmejobijbbhgpjhcjognlahblep
+SponsorBlock for YouTube - Skip Sponsorships|mnjggcdmjocbbbhaepdhchncahnbgone
+Bitwarden - Free Password Manager|nngceckbapebfimnlniiiahkandclblb
+Chromium Web Store|ocaahdebbfolfmndjeplogmgcagdmblk|https://raw.githubusercontent.com/NeverDecaf/chromium-web-store/master/updates.xml
