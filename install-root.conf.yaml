@@ -10,4 +10,6 @@
     # System
     /etc/pacman.conf: config/pacman.conf
 
+    /bin/code: /bin/codium
+
     /usr/share/icons/default/index.theme: config/cursors.theme
