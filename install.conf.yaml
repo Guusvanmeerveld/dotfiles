@@ -16,7 +16,6 @@
     # Shell
     ~/.config/kitty/kitty.conf: config/kitty.conf
     ~/.aliases: config/.aliases.sh
-    ~/.zshrc: config/.zshrc
     ~/gpg.conf: config/gpg.conf
     ~/.ssh/config: config/ssh
     ~/.xinitrc: config/.xinitrc

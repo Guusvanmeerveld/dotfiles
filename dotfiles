@@ -1,0 +1,39 @@
+#!/bin/bash
+
+export DOTFILES=~/dotfiles
+export EDITOR=micro
+
+case $1 in
+    edit)
+        $EDITOR $DOTFILES/config/$2
+    ;;
+
+    add)
+        echo "    - $2" >> $DOTFILES/packages.conf.yaml
+    ;;
+
+    install)
+        sudo pacman -Sy python --noconfirm
+
+        SCRIPTS=$DOTFILES/install_scripts
+
+        $SCRIPTS/pre-install
+
+        $SCRIPTS/install-packages
+
+        # if (( $3 == "applications" ))
+        # then
+        #     $SCRIPTS/install-applications
+        # fi
+
+        $SCRIPTS/post-install
+
+    ;;
+
+    *)
+        echo "Commands:"
+        echo "  install     installs the dotfiles"
+        echo "  edit        edit one of the config files"
+        echo "  add         add a package to the list"
+    ;;
+esac

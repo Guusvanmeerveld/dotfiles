@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# NetworkManager
+sudo systemctl enable NetworkManager --now
+
+# Flutter
+sudo gpasswd -a $USER flutterusers
+
+# sddm
+sudo systemctl enable sddm
+sudo cp $DOTFILES/themes/zune /usr/share/sddm/themes/ -r
+
+# Micro
+micro -plugin install quoter filemanager
+
+# ZSH
+$DOTFILES/scripts/install-z.sh
+
+# Update user
+$DOTFILES/scripts/chuser.sh
+
+# Set locale
+$DOTFILES/scripts/set_locale.sh

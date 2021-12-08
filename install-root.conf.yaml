@@ -11,6 +11,6 @@
     # System
     /etc/pacman.conf: config/pacman.conf
 
-    /bin/code: /bin/codium
+    /bin/dotfiles: dotfiles
 
     /usr/share/icons/default/index.theme: config/cursors.theme

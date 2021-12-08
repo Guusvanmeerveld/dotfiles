@@ -1,0 +1,12 @@
+#!/bin/bash
+
+$DOTFILES/install -p dotbot-yay/yay.py -p dotbot-vscode/vscode.py -c applications.conf.yaml
+
+# Spotifyd
+sudo systemctl enable spotifyd --machine=$USER@.host --user --now
+
+# Syncthing
+sudo systemctl enable --now syncthing@$USER
+
+# Docker
+sudo usermod -aG docker $USER

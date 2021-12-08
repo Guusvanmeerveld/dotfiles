@@ -1,1 +1,1 @@
-sudo chsh -s /bin/zsh guus
+sudo chsh -s /bin/zsh $USER

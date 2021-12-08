@@ -1,2 +1,0 @@
-./install
-sudo ./install -c "install-root.conf.yaml"

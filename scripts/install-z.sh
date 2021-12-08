@@ -5,10 +5,14 @@ else
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 fi
 
-mkdir -p ~/.oh-my-zsh/custom/plugins
 
 export PLUGINS=~/.oh-my-zsh/custom/plugins
 export THEMES=~/.oh-my-zsh/themes
+
+mkdir -p $PLUGINS
+mkdir -p $THEMES
+
+ln -sf $DOTFILES/config/.zshrc ~/.zshrc
 
 # Install zsh-histdb
 git -C $PLUGINS/zsh-histdb pull || git clone https://github.com/larkery/zsh-histdb $PLUGINS/zsh-histdb
