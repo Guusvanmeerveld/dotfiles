@@ -1,0 +1,4 @@
+#!/bin/bash
+
+$ROOT/install
+sudo $ROOT/install -c "$DOTFILES/install-root.conf.yaml"

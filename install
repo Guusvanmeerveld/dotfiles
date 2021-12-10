@@ -2,7 +2,7 @@
 
 set -e
 
-CONFIG="install.conf.yaml"
+CONFIG="$DOTFILES/install.conf.yaml"
 DOTBOT_DIR="dotbot"
 
 PLUGIN_YAY="dotbot-yay/yay.py"

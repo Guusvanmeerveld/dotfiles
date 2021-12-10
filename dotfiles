@@ -1,15 +1,17 @@
 #!/bin/bash
 
-export DOTFILES=~/dotfiles
+export ROOT=~/dotfiles
+export OS=$1
+export DOTFILES=$ROOT/$OS
 export EDITOR=micro
 
-case $1 in
+case $2 in
     edit)
-        $EDITOR $DOTFILES/config/$2
+        $EDITOR $ROOT/$OS/config/$3
     ;;
 
     add)
-        echo "    - $2" >> $DOTFILES/packages.conf.yaml
+        echo "    - $3" >> $ROOT/$OS/packages.conf.yaml
     ;;
 
     install)

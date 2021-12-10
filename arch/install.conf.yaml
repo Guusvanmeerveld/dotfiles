@@ -8,29 +8,29 @@
 
 - link:
     # WM
-    ~/.config/bspwm/bspwmrc: config/bspwmrc
-    ~/.config/sxhkd/sxhkdrc: config/sxhkdrc
-    ~/.config/polybar: config/polybar
-    ~/.config/picom/picom.conf: config/picom.conf
+    ~/.config/bspwm/bspwmrc: arch/config/bspwmrc
+    ~/.config/sxhkd/sxhkdrc: arch/config/sxhkdrc
+    ~/.config/polybar: arch/config/polybar
+    ~/.config/picom/picom.conf: arch/config/picom.conf
 
     # Shell
-    ~/.config/kitty/kitty.conf: config/kitty.conf
+    ~/.config/kitty/kitty.conf: arch/config/kitty.conf
     ~/.aliases: config/.aliases.sh
     ~/gpg.conf: config/gpg.conf
     ~/.ssh/config: config/ssh
-    ~/.xinitrc: config/.xinitrc
+    ~/.xinitrc: arch/config/.xinitrc
 
     # Micro
     ~/.config/micro/settings.json: config/micro/settings.json
     ~/.config/micro/bindings.json: config/micro/bindings.json
 
     # Applications
-    ~/.config/spotifyd/spotifyd.conf: config/spotifyd.conf
-    ~/.gtkrc-2.0: config/gtk/2.ini
-    ~/.config/gtk-3.0/settings.ini: config/gtk/3.ini
-    ~/.config/VSCodium/User/settings.json: config/vscodium.json
-    ~/.config/chromium-flags.conf: config/chromium/flags
-    ~/.config/rofi: config/rofi/
+    ~/.config/spotifyd/spotifyd.conf: arch/config/spotifyd.conf
+    ~/.gtkrc-2.0: arch/config/gtk/2.ini
+    ~/.config/gtk-3.0/settings.ini: arch/config/gtk/3.ini
+    ~/.config/VSCodium/User/settings.json: arch/config/vscodium.json
+    ~/.config/chromium-flags.conf: arch/config/chromium/flags
+    ~/.config/rofi: arch/config/rofi/
 
     # System
 

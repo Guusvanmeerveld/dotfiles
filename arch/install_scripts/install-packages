@@ -1,0 +1,3 @@
+#!/bin/bash
+
+$ROOT/install -p dotbot-yay/yay.py -c $DOTFILES/packages.conf.yaml

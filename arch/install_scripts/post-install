@@ -14,10 +14,10 @@ sudo cp $DOTFILES/themes/zune /usr/share/sddm/themes/ -r
 micro -plugin install quoter filemanager
 
 # ZSH
-$DOTFILES/scripts/install-z.sh
+$ROOT/scripts/install-z.sh
 
 # Update user
-$DOTFILES/scripts/chuser.sh
+$ROOT/scripts/chuser.sh
 
 # Set locale
-$DOTFILES/scripts/set_locale.sh
+$ROOT/scripts/set_locale.sh
