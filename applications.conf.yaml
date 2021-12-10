@@ -6,8 +6,9 @@
     # Chromium
     - ungoogled-chromium
 
-    # Spotifyd
-    - spotify-tui-bin
+    # Spotify
+    - spotify
+    - spicetify-cli
     - spotifyd
 
     - discord

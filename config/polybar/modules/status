@@ -46,7 +46,9 @@ interface = enp1s0
 
 interval = 3.0
 
-label-connected = 
+label-connected =  %downspeed%
+
+format-connected = <label-connected>
 
 label-disconnected = 
 

@@ -33,29 +33,6 @@ alert = #bd2c40
 
 [constants]
 height = 40
-margin-top = 10
-
-[bar/workspace]
-font-0 = Roboto:pixelsize=13;1
-font-1 = Material Icons:pixelsize=15;4
-
-width = 390
-height = ${constants.height}
-
-radius = 20
-fixed-center = true
-
-offset-x = 5
-offset-y = ${constants.margin-top}
-
-background = ${colors.background}
-foreground = ${colors.foreground}
-
-modules-center = bspwm
-
-wm-restack = bspwm
-
-cursor-click = pointer
 
 [bar/system]
 font-0 = Roboto:pixelsize=13;1
@@ -64,50 +41,22 @@ font-1 = Material Icons:pixelsize=15;4
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-radius = 20
 fixed-center = true
-
-offset-y = ${constants.margin-top}
-offset-x = 70%:10
 
 padding-right = 5
 
-width = 26.5%
 height = ${constants.height}
 
 module-margin-right = 2
 module-margin-left = 2
 
-modules-right = temperature memory cpu battery wlan eth date
+modules-left = bspwm
+modules-center = spotify spotify-prev spotify-play-pause spotify-next
+modules-right = temperature memory cpu battery wlan eth date powermenu
 
 wm-restack = bspwm
 
 cursor-click = pointer
-
-[bar/power]
-font-0 = Roboto:pixelsize=13;1
-font-1 = Material Icons:pixelsize=15;4
-
-background = ${colors.primary}
-foreground = ${colors.foreground}
-
-radius = 20
-fixed-center = true
-
-offset-y = ${constants.margin-top}
-offset-x = 97%:10
-
-width = ${constants.height}
-height = ${constants.height}
-
-modules-center = powermenu
-
-wm-restack = bspwm
-
-cursor-click = pointer
-cursor-scroll = default
-
-click-left = ~/.config/polybar/scripts/power-menu.sh &
 
 [settings]
 screenchange-reload = true
