@@ -1,0 +1,13 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- link:
+    # System
+    /etc/pacman.conf: config/pacman.conf
+
+    /bin/dotfiles: dotfiles
+
+    /usr/share/icons/default/index.theme: config/cursors.theme

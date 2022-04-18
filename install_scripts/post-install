@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# NetworkManager
+sudo systemctl enable NetworkManager --now
+
+# Flutter
+sudo gpasswd -a $USER flutterusers
+
+# sddm
+sudo systemctl enable ly
+
+# Micro
+micro -plugin install quoter filemanager
+
+# ZSH
+$ROOT/scripts/install-z.sh
+
+$ROOT/scripts/chaotic-aur.sh
+
+# Update user
+$ROOT/scripts/chuser.sh
+
+# Set locale
+$ROOT/scripts/set_locale.sh

@@ -1,0 +1,63 @@
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ADP1
+full-at = 100
+
+format-charging-background = ${colors.tertiary}
+format-charging = <label-charging>
+
+format-discharging-background = ${colors.secondary}
+format-discharging = <label-discharging>
+
+label-charging = %percentage%
+
+label-discharging = %percentage%
+
+[module/temperature]
+type = internal/temperature
+
+; $ for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
+thermal-zone = 0
+
+format = <label>
+
+label = %temperature-c%
+
+[module/wlan]
+type = internal/network
+interface = net1
+interval = 3.0
+
+format-connected = <label-connected>
+
+label-connected = %essid%
+
+format-disconnected = <label-disconnected>
+format-disconnected-background = ${colors.primary}
+
+label-disconnected = %ifname%
+
+[module/eth]
+type = internal/network
+interface = enp34s0
+
+interval = 3.0
+
+label-connected =  %downspeed%
+
+format-connected = <label-connected>
+
+label-disconnected = 
+
+[module/date]
+type = internal/date
+interval = 5
+
+time = %H:%M
+
+date = %a %e %b
+
+label = %date% %time%
+
+format = <label>
