@@ -1,29 +1,35 @@
 {
-    "window.zoomLevel": 2,
-    "editor.codeLensFontFamily": "'Fira Code'",
-    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.inlayHints.fontFamily": "'Fira Code'",
-    "debug.console.fontFamily": "'Fira Code'",
-    "terminal.integrated.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.formatOnSave": true,
-    "security.workspace.trust.enabled": false,
-    "workbench.colorTheme": "Super One Dark",
-    "workbench.iconTheme": "material-icon-theme",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "explorer.confirmDelete": false,
-    "files.associations": {
-        "sxhkdrc": "sxhkdrc",
-        "*.rasi": "rasi"
-    },
-    "atomKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.startupEditor": "none",
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "git.autofetch": true
+  "window.zoomLevel": 2,
+  "editor.codeLensFontFamily": "'Fira Code'",
+  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.inlayHints.fontFamily": "'Fira Code'",
+  "debug.console.fontFamily": "'Fira Code'",
+  "terminal.integrated.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "security.workspace.trust.enabled": false,
+  "workbench.colorTheme": "Super One Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "files.associations": {
+    "sxhkdrc": "sxhkdrc",
+    "*.rasi": "rasi"
+  },
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.startupEditor": "none",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

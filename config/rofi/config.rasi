@@ -1,6 +1,15 @@
 configuration {
-    combi-modi: "drun,window,ssh";
-    font: "Fira Code 14";
+    modi: [ combi ];
+    combi-modi: [drun, window, ssh];
+    // font: "Fira Code 14";
     icon-theme: "Papirus";
+    show-icons: true;
 }
 @theme "./material.rasi"
+
+* {
+  font: "Fira Code 12";
+}
+element-icon {
+    size: 30;
+}

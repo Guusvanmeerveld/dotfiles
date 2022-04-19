@@ -13,7 +13,6 @@ Host gitlab.com
 Host server
     User ubuntu
     HostName 152.70.52.247
-    PreferredAuthentications publickey
     IdentityFile ~/.ssh/server
 
 Host local-server
@@ -23,5 +22,5 @@ Host local-server
 
 Host mail-server
     User ubuntu
-    HostName 81.206.144.139
+    HostName 158.101.217.202
     IdentityFile ~/.ssh/mail-server
