@@ -23,6 +23,9 @@
     ~/.config/micro/settings.json: config/micro/settings.json
     ~/.config/micro/bindings.json: config/micro/bindings.json
 
+    # NVim
+    ~/.config/nvim/init.vim: config/init.vim
+
     # Applications
     ~/.config/spotifyd/spotifyd.conf: config/spotifyd.conf
     ~/.gtkrc-2.0: config/gtk/2.ini
@@ -31,6 +34,7 @@
     ~/.config/chromium-flags.conf: config/chromium/flags
     ~/.config/rofi: config/rofi/
     ~/.config/flameshot/flameshot.ini: config/flameshot.ini
+    ~/.config/dunst/dunstrc: config/dunstrc
 
     # System
 

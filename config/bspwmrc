@@ -9,7 +9,7 @@ setxkbmap -option compose:rctrl
 ~/.config/polybar/launch.sh
 
 # Picom
-picom --config ~/.config/picom/picom.conf &
+picom --config ~/.config/picom/picom.conf --backend xrender &
 
 # Wallpaper
 feh --bg-center ~/dotfiles/wallpaper.jpg

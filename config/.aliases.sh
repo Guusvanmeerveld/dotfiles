@@ -6,3 +6,5 @@ alias dc="docker-compose up -d"
 alias debloat="yay -c"
 
 alias aliases="micro ~/.aliases"
+
+alias vi="nvim"
