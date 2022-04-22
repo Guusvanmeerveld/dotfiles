@@ -1,18 +1,22 @@
 [module/battery]
 type = internal/battery
-battery = BAT0
-adapter = ADP1
+battery = BAT1
+adapter = ACAD
 full-at = 100
 
-format-charging-background = ${colors.tertiary}
 format-charging = <label-charging>
 
-format-discharging-background = ${colors.secondary}
-format-discharging = <label-discharging>
+format-discharging = <ramp-capacity> <label-discharging>
 
-label-charging = %percentage%
+label-charging = %percentage%%
 
-label-discharging = %percentage%
+label-discharging = %percentage%%
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
 
 [module/temperature]
 type = internal/temperature

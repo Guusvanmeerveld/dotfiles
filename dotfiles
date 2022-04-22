@@ -24,7 +24,7 @@ case $1 in
 
         # if (( $3 == "applications" ))
         # then
-        #     $SCRIPTS/install-applications
+        $SCRIPTS/install-applications
         # fi
 
         $SCRIPTS/post-install
