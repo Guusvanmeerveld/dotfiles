@@ -30,17 +30,16 @@ label = %temperature-c%
 
 [module/wlan]
 type = internal/network
-interface = net1
+interface = wlo1
 interval = 3.0
 
 format-connected = <label-connected>
 
-label-connected = %essid%
+label-connected = %essid%
 
 format-disconnected = <label-disconnected>
-format-disconnected-background = ${colors.primary}
 
-label-disconnected = %ifname%
+label-disconnected = 
 
 [module/eth]
 type = internal/network

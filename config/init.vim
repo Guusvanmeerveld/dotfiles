@@ -41,8 +41,11 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --producti
 Plug 'sainnhe/sonokai'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vimlab/split-term.vim'
-Plug 'SirVir/ultisnips'
+Plug 'sirver/UltiSnips'
 Plug 'honza/vim-snippets'
+Plug 'lambdalisue/suda.vim'
+" Plug 'thaerkh/vim-workspace'
+Plug 'Raimondi/delimitMate'
 call plug#end()
 
 " Fzf
@@ -51,6 +54,9 @@ nnoremap <C-p> :Files<CR>
 " Prettier settings
 let g:prettier#autoformat = 1
 let g:prettier#autoformat_require_pragma = 0
+
+" Workspace settings
+" let g:workspace_autocreate = 1
 
 " Nerd tree settings
 " autocmd VimEnter * NERDTree
