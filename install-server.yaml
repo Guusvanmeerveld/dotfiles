@@ -12,6 +12,10 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
+    - [scripts/install-zsh, Installing zsh]
+    - [scripts/chuser, Update shell]
+    - [scripts/install-vim, Install NeoVim and plugins]
+    - [curl -fsSL https://get.docker.com | sh, Install Docker]
 
 - create:
     - ~/.config
