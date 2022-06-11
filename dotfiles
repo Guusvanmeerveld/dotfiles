@@ -30,15 +30,15 @@ case $1 in
     ;;
 
     install-server)
-        sudo apt install python3 nvim neofetch docker -y
+        sudo apt install python3 neovim neofetch docker -y
 
         $ROOT/install -c "$DOTFILES/install-server.yaml"
 
-        $SCRIPTS/install-z.sh
+        $ROOT/scripts/install-z.sh
 
-        $SCRIPTS/chuser.sh
+        $ROOT/scripts/chuser.sh
 
-        $SCRIPTS/install-vim.sh
+        $ROOT/scripts/install-vim.sh
     ;;
 
     *)
