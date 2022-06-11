@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Download
 git -C /tmp/yay pull || git clone https://aur.archlinux.org/yay /tmp/yay/
 

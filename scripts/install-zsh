@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Install ohmyzsh
 if [ -d "$ZSH" ]; then
 	echo "ohmyzsh is installed"

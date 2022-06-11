@@ -36,7 +36,7 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    - [scripts/install_yay.sh, Installing yay]
+    - [scripts/install-yay, Installing yay]
     # - [scripts/ungoogled_chromium, Setting up ungoogled chromium repo]
 
 - create:

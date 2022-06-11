@@ -34,11 +34,11 @@ case $1 in
 
         $ROOT/install -c "$DOTFILES/install-server.yaml"
 
-        $ROOT/scripts/install-z.sh
+        $ROOT/scripts/install-zsh
 
-        $ROOT/scripts/chuser.sh
+        $ROOT/scripts/chuser
 
-        $ROOT/scripts/install-vim.sh
+        $ROOT/scripts/install-vim
     ;;
 
     *)

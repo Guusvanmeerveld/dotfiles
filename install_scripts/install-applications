@@ -11,4 +11,4 @@ sudo systemctl enable --now syncthing@$USER
 # Docker
 sudo usermod -aG docker $USER
 
-$SCRIPTS/install-vim.sh
+$ROOT/scripts/install-vim

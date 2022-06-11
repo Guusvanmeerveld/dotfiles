@@ -13,12 +13,12 @@ sudo systemctl enable ly
 micro -plugin install quoter filemanager
 
 # ZSH
-$ROOT/scripts/install-z.sh
+$ROOT/scripts/install-zsh
 
-$ROOT/scripts/chaotic-aur.sh
+$ROOT/scripts/chaotic-aur
 
 # Update user
-$ROOT/scripts/chuser.sh
+$ROOT/scripts/chuser
 
 # Set locale
-$ROOT/scripts/set_locale.sh
+$ROOT/scripts/set-locale
