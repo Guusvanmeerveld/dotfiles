@@ -1,0 +1,17 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- clean: ["~"]
+
+- link:
+    ~/.aliases: config/.aliases.sh
+    ~/.config/nvim/init.vim: config/init.vim
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+
+- create:
+    - ~/.config

@@ -3,6 +3,8 @@
 export ROOT=~/dotfiles
 export DOTFILES=$ROOT
 
+export SCRIPTS=$DOTFILES/install_scripts
+
 case $1 in
     edit)
         $EDITOR $ROOT/config/$2
@@ -15,8 +17,6 @@ case $1 in
     install)
         sudo pacman -Sy python --noconfirm
 
-        SCRIPTS=$DOTFILES/install_scripts
-
         $SCRIPTS/pre-install
 
         $SCRIPTS/install-packages
@@ -27,7 +27,18 @@ case $1 in
         # fi
 
         $SCRIPTS/post-install
+    ;;
 
+    install-server)
+        sudo apt install python3 nvim neofetch docker -y
+
+        $ROOT/install -c "$DOTFILES/install-server.yaml"
+
+        $SCRIPTS/install-z.sh
+
+        $SCRIPTS/chuser.sh
+
+        $SCRIPTS/install-vim.sh
     ;;
 
     *)

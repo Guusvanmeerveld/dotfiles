@@ -33,8 +33,6 @@
     - networkmanager
 
     # Fonts
-    - ttf-roboto
-    - ttf-roboto-mono
     - ttf-fira-code
     - ttf-material-design-icons
     - noto-fonts-emoji
