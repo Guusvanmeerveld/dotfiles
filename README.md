@@ -2,13 +2,30 @@
 
 ## Install
 
-### Essential Packages + Applications
-
 ```bash
-sh packs+apps.sh
+./dotfiles install
 ```
 
-### Essential packages only
+## Add a package to the install list
+
 ```bash
-sh packs.sh
+./dotfiles add {package_name}
+```
+
+example:
+
+```bash
+./dotfiles add ungoogled-chromium
+```
+
+## Edit a config file
+
+```bash
+./dotfiles edit {file_name}
+```
+
+example:
+
+```bash
+./dotfiles edit bspwmrc
 ```

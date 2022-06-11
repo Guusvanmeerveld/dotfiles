@@ -1,17 +1,31 @@
 command Ws w|so%
 
-" Simple keybinds
-nnoremap <C-s> :w<CR>
-nnoremap <C-q> :q<CR>
-inoremap <C-s> <ESC>:w<CR>
+let mapleader = " "
 
-nnoremap <S-E> :10Term<CR>
+" Simple keybinds
+nnoremap <silent> <C-s> :w<CR>
+nnoremap <silent> <C-q> :q<CR>
+inoremap <silent> <C-s> <ESC>:w<CR>
+
+nnoremap <silent> <S-E> :10Term<CR>
+
+nnoremap <silent> <A-Up> :m-2<CR>
+nnoremap <silent> <A-Down> :m+1<CR>
+
+" Easy split navigation
+nnoremap <C-w> <C-w>w
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 :set tabstop=4
 
 :set relativenumber
 
-:set timeout timeoutlen=20 ttimeoutlen=20
+:set timeout timeoutlen=500 ttimeoutlen=500
+
+:set clipboard=unnamedplus
 
 let s:fontsize = 12
 
@@ -36,24 +50,29 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'mattn/emmet-vim'
 Plug 'Valloric/YouCompleteMe'
-Plug 'terryma/vim-multiple-cursors'
+Plug 'mg979/vim-visual-multi'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 Plug 'sainnhe/sonokai'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vimlab/split-term.vim'
 Plug 'sirver/UltiSnips'
 Plug 'honza/vim-snippets'
-Plug 'lambdalisue/suda.vim'
 " Plug 'thaerkh/vim-workspace'
 Plug 'Raimondi/delimitMate'
+
 call plug#end()
 
 " Fzf
-nnoremap <C-p> :Files<CR>
+nnoremap <silent> <Leader>p :Files<CR>
+nnoremap <silent> <Leader>f :Rg<CR>
 
 " Prettier settings
 let g:prettier#autoformat = 1
 let g:prettier#autoformat_require_pragma = 0
+
+" Vim eunuch setting
+nnoremap <silent> <Leader>e :SudoEdit<CR>
+nnoremap <silent> <Leader>s :SudoWrite<CR>
 
 " Workspace settings
 " let g:workspace_autocreate = 1
@@ -63,13 +82,12 @@ let g:prettier#autoformat_require_pragma = 0
 
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+let NERDTreeShowHidden = 1
 
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
-nnoremap <C-n> :NERDTree<CR>
+nnoremap <silent> <C-t> :NERDTreeToggle<CR>
 
-nnoremap ] :tabn<CR>
-nnoremap [ :tabp<CR>
+nnoremap <silent> <Leader>] :tabn<CR>
+nnoremap <silent> <Leader>[ :tabp<CR>
 
 " Lightline config
 set noshowmode

@@ -2,7 +2,6 @@
 
 export ROOT=~/dotfiles
 export DOTFILES=$ROOT
-export EDITOR=micro
 
 case $1 in
     edit)

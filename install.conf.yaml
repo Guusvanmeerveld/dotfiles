@@ -19,10 +19,6 @@
     ~/gpg.conf: config/gpg.conf
     ~/.ssh/config: config/ssh
 
-    # Micro
-    ~/.config/micro/settings.json: config/micro/settings.json
-    ~/.config/micro/bindings.json: config/micro/bindings.json
-
     # NVim
     ~/.config/nvim/init.vim: config/init.vim
 
