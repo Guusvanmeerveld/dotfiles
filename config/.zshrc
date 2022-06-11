@@ -11,7 +11,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 source ~/.aliases
 
 # Plugins
-plugins=(git colorize docker yarn vscode sudo alias-finder archlinux zsh-histdb zsh-autosuggestions)
+plugins=(git colorize docker yarn debian vscode sudo alias-finder archlinux zsh-histdb zsh-autosuggestions)
 
 # Oh-my-zsh
 source $ZSH/oh-my-zsh.sh

@@ -22,5 +22,5 @@ Host local-server
 
 Host mail-server
     User ubuntu
-    HostName 158.101.217.202
+    HostName 158.101.195.59
     IdentityFile ~/.ssh/mail-server

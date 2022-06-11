@@ -30,7 +30,7 @@ case $1 in
     ;;
 
     install-server)
-        sudo apt install python3 neovim neofetch cmake curl -y
+        sudo apt install python3 neovim curl zsh -y
 
         $ROOT/install -c "$DOTFILES/install-server.yaml"
     ;;
