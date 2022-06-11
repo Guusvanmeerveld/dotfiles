@@ -49,7 +49,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'mattn/emmet-vim'
-Plug 'Valloric/YouCompleteMe'
+"  Plug 'Valloric/YouCompleteMe'
 Plug 'mg979/vim-visual-multi'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 Plug 'sainnhe/sonokai'
