@@ -10,17 +10,17 @@ Host gitlab.com
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/gitlab
 
-Host server
+Host hound
     User ubuntu
     HostName 152.70.52.247
-    IdentityFile ~/.ssh/server
+    IdentityFile ~/.ssh/hound
 
-Host local-server
+Host wolf
     User guus
     HostName 81.206.144.139
-    IdentityFile ~/.ssh/local-server
+    IdentityFile ~/.ssh/wolf
 
-Host mail-server
+Host fox
     User ubuntu
     HostName 158.101.195.59
-    IdentityFile ~/.ssh/mail-server
+    IdentityFile ~/.ssh/fox

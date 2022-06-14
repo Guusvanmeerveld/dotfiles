@@ -7,8 +7,7 @@ export ZSH=~/.oh-my-zsh
 # Theme
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-# Aliases
-source ~/.aliases
+export EDITOR="nvim"
 
 # Plugins
 plugins=(git colorize docker yarn debian vscode sudo alias-finder archlinux zsh-histdb zsh-autosuggestions)
@@ -22,13 +21,14 @@ if type rg &> /dev/null; then
   export FZF_DEFAULT_OPTS='-m --height 50% --border'
 fi
 
-export EDITOR="nvim"
-
 # Keybinds
 bindkey "^z" undo
 bindkey "^y" redo
 bindkey "^H" backward-kill-word
 bindkey "^ " autosuggest-accept
+
+# Aliases
+source ~/.aliases
 
 # Powerlevel10k
 source ~/.p10k.zsh
